@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">N Health Watch Status</string>
+    <string name="auto_reconnect_label">Auto reconnect when disconnected</string>
+    <string name="start_scan">Start Scan</string>
+    <string name="stop_scan">Stop Scan</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="tap_to_pair_hint">Tap a discovered watch to pair and connect.</string>
+    <string name="mac_input_hint">Or enter watch MAC (AA:BB:CC:DD:EE:FF)</string>
+    <string name="connect_by_mac">Connect by MAC</string>
+    <string name="watch_status_title">Watch Status Dashboard</string>
+    <string name="connection_state">Connection</string>
+    <string name="device_name">Device</string>
+    <string name="battery_level">Battery</string>
+    <string name="signal_strength">Signal</string>
+    <string name="manufacturer">Manufacturer</string>
+    <string name="model">Model</string>
+    <string name="firmware">Firmware</string>
+    <string name="last_sync">Last Sync</string>
+    <string name="permissions_required">Bluetooth permissions are required for scan and connect.</string>
+    <string name="ble_not_supported">BLE is not supported on this phone.</string>
+    <string name="enable_bluetooth_prompt">Please enable Bluetooth to continue.</string>
+    <string name="enter_mac_prompt">Enter a watch MAC address first.</string>
+    <string name="invalid_mac_prompt">Invalid MAC format. Example: AA:BB:CC:DD:EE:FF</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="value_not_available">Not available</string>
+    <string name="value_not_exposed">Not exposed by watch</string>
+    <string name="ble_channel_name">BLE Companion</string>
+    <string name="background_reconnect_active">Background reconnect is active</string>
+</resources>
