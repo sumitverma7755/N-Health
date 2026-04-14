@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "NHealthWatchStatus"
 include(":app")
+include(":ble-sdk")

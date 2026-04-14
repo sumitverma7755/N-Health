@@ -36,3 +36,39 @@ This project is a Kotlin Android app that:
 
 - Some OnePlus watch metrics are proprietary and may not be available over standard BLE characteristics.
 - If your watch does not expose Battery or Device Info services, those fields stay "Not available".
+
+## BLE SDK Package
+
+This repository now includes a publishable Android library module at:
+
+- `ble-sdk/`
+
+Published coordinates (GitHub Packages Maven):
+
+- Group: `com.nhealth`
+- Artifact: `nhealth-ble-sdk`
+- Version: `0.1.0` (update in `ble-sdk/build.gradle.kts` before each release)
+
+The package publish workflow is defined in:
+
+- `.github/workflows/publish-ble-sdk.yml`
+
+### Publish Your First Package
+
+1. Commit and push your latest code to `main`.
+2. Create and push a tag that matches `sdk-v*`.
+
+Example:
+
+```bash
+git tag sdk-v0.1.0
+git push origin sdk-v0.1.0
+```
+
+This triggers GitHub Actions to run:
+
+```bash
+./gradlew :ble-sdk:publishReleasePublicationToGitHubPackagesRepository
+```
+
+and publishes the package to the repository's Packages tab.
