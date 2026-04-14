@@ -47,7 +47,7 @@ Published coordinates (GitHub Packages Maven):
 
 - Group: `com.nhealth`
 - Artifact: `nhealth-ble-sdk`
-- Version: `0.1.0` (update in `ble-sdk/build.gradle.kts` before each release)
+- Version: `0.1.1` (update in `ble-sdk/build.gradle.kts` before each release)
 
 The package publish workflow is defined in:
 
@@ -61,8 +61,8 @@ The package publish workflow is defined in:
 Example:
 
 ```bash
-git tag sdk-v0.1.0
-git push origin sdk-v0.1.0
+git tag sdk-v0.1.1
+git push origin sdk-v0.1.1
 ```
 
 This triggers GitHub Actions to run:
